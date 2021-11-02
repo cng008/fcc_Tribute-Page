@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    #main {
+      font-family: Futura;
+      font-size: 16px;
+      }
+    #title {
+      font-size: 40px;
+      font-weight: bold;
+      color: rgb(199, 169, 64);
+      text-align: center;
+      }
+    #subtitle {
+      text-align: center;
+      font-weight: bold;
+      }
+    #h1 {
+      text-align: left;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      }
+    #image {
+      width: 100%;
+      max-width: 1000px;
+      max-height: 1000px;
+      }
+    #img-caption {
+      text-align: center;
+      font-size: 14px;
+      }
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      }
+  </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="title">Chili Tots</div>
+      <div id="subtitle">Full Recipe</div>
+      <div id="img-div">
+        <img id="image" src="https://data.thefeedfeed.com/static/2020/06/24/15930466995ef3f6aba04e6.jpg" alt="potatoes in tot form" class="center">
+        <div id="img-caption" <caption>Chili tots under some meleted cheese</caption></div>
+        <div id="tribute-info">
+          <div id="h1">INGREDIENTS</div>
+          <ul>
+            <li>1lb ground turkey</li>
+            <li>1 can (15oz) kidney beans</li>
+            <li>1 can (8 ounces) tomato sauce</li>
+            <li>1 pack of chili seasoning</li>
+            <li>1 cup of chicken stock</li>
+            <li>1 carrot (diced)</li>
+            <li>1 medium onion (diced)</li>
+            <li>2 tomatoes (diced)</li>
+            <li>1/2 shot of honey</li>
+            <li>1 package (32 ounces) frozen Tater Tots</li>
+          </ul>
+          <div id="h1">HOE DO YOU MAKE THE CHILI?</div>
+          <ol>
+            <li>Heat olive in a large soup pot and cook onions until carmelized.</li>
+            <li>Break up ground turkey and cook thoroughly.</li>
+            <li>Add chili seasoning packet and stir until well combined.</li>
+            <li>Add honey (to taste).</li>
+            <li>Add carrots, tomatoes, tomato paste, chicken broth, beans. Stir.</li>
+            <li>Simmer for 20-25 minutes.</li>
+            <li>Let the chili rest for 5-10 minutes before serving.</li>
+          </ol>
+        </div>
+        <a id="tribute-link" target="_blank" href="https://thefeedfeed.com/cherryonmysundae/cheesy-chili-tater-tots">Click Here for Recipe<a>
+      </div>
+    </div>
+  </body>
+</html>
